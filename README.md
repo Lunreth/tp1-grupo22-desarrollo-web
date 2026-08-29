@@ -12,7 +12,7 @@ El proyecto presenta una portada del equipo, cinco perfiles individuales y una b
 - Integrante 2 — GitHub: `https://github.com/usuario2`
 - Integrante 3 — GitHub: `https://github.com/usuario3`
 - Integrante 4 — GitHub: `https://github.com/usuario4`
-- Integrante 5 — GitHub: `https://github.com/usuario5`
+- Martínez Cáceres, Kevin David — GitHub: `https://github.com/Lunreth`
 
 > Reemplazar los usuarios genéricos por los perfiles reales.
 
@@ -92,7 +92,7 @@ Completar esta sección con el uso real realizado por el grupo.
 
 URL de Vercel:
 
-`PENDIENTE — pegar aquí la URL final`
+`[LINK AL DEPLOY DEL TP1](https://tp1-grupo22-desarrollo-web.vercel.app/)`
 
 ## Evolución
 
