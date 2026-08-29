@@ -92,7 +92,7 @@ Completar esta sección con el uso real realizado por el grupo.
 
 URL de Vercel:
 
-`[LINK AL DEPLOY DEL TP1](https://tp1-grupo22-desarrollo-web.vercel.app/)`
+[`[LINK AL DEPLOY DEL TP1](https://tp1-grupo22-desarrollo-web.vercel.app/)`](https://tp1-grupo22-desarrollo-web.vercel.app/)
 
 ## Evolución
 
