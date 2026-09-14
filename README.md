@@ -11,7 +11,7 @@ El proyecto presenta una portada del equipo, cinco perfiles individuales y una b
 - Integrante 1 — GitHub: `https://github.com/usuario1`
 - Integrante 2 — GitHub: `https://github.com/usuario2`
 - Integrante 3 — GitHub: `https://github.com/usuario3`
-- Integrante 4 — GitHub: `https://github.com/usuario4`
+- Molina, Rodrigo Nicolás — GitHub: `https://github.com/Rodrigo-Molina12506`
 - Martínez Cáceres, Kevin David — GitHub: `https://github.com/Lunreth`
 
 > Reemplazar los usuarios genéricos por los perfiles reales.
