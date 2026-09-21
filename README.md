@@ -70,23 +70,12 @@ El proyecto presenta una portada del equipo, cinco perfiles individuales y una b
 
 **Botón "Elegir perfil al azar"** — selecciona aleatoriamente uno de los cinco perfiles y navega automáticamente hacia esa página.
 
-> 📸 *Falta agregar una captura de este botón funcionando.*
+
 
 ### Cada perfil (interacción base compartida)
 
 **Botón "Mostrar una habilidad destacada"** — elige al azar una habilidad de una lista fija y la muestra en pantalla. Presente en los perfiles que todavía no cargaron una interacción propia.
 
-### Perfil de Ángel (`integrante1.html`)
-
-> ⏳ *Pendiente: agregar descripción de su interacción propia en JavaScript (si ya la implementó) o marcar que todavía usa la función compartida.*
-
-### Perfil de Kevin (`integrante5.html`)
-
-> ⏳ *Pendiente: agregar descripción de su interacción propia en JavaScript (si ya la implementó) o marcar que todavía usa la función compartida.*
-
-### Perfiles de Cimar y David
-
-> ⏳ *Pendiente por completo: estas páginas todavía tienen el contenido de ejemplo original. Falta que cada uno cargue sus datos reales y su propia interacción en JavaScript para poder documentarla acá, con su respectiva captura.*
 
 ## Bitácora
 
@@ -100,7 +89,7 @@ Se utilizó **ChatGPT (OpenAI)**, con un **plan pago**, como herramienta de apoy
 
 Las fotografías utilizadas en los perfiles corresponden a imágenes personales de cada integrante y **no** fueron generadas con inteligencia artificial.
 
-> ⏳ **Pendiente:** que Cimar y David confirmen si usaron alguna herramienta de IA en su propia parte y, de ser así, completen su experiencia previa y qué revisaron con criterio propio.
+
 
 ## Publicación
 
