@@ -1,0 +1,125 @@
+# NEXUS — Trabajo Práctico Grupal 1
+
+## Descripción
+
+Sitio web grupal desarrollado para **Desarrollo de Sistemas Web · Front End · 2026 · 2° B · Grupo 22**.
+
+El proyecto presenta una portada del equipo, cinco perfiles individuales y una bitácora del proceso de desarrollo.
+
+## Integrantes
+
+| Integrante | GitHub | Responsabilidad principal |
+|---|---|---|
+| Ángel Domínguez | [`ad29dominguez-design`](https://github.com/ad29dominguez-design) | Coordinación general, consigna, rúbrica, revisión final de `index.html` |
+| Kevin David Martínez | [`Lunreth`](https://github.com/Lunreth) | Creación y configuración del repositorio, colaboradores, estructura base (`index.html`), CSS y JavaScript |
+| Cimar Gómez Torres | *pendiente* | Diseño general, `css/styles.css`, Google Fonts, paleta y breakpoints |
+| David Carlos Ruiz Flores | *pendiente* | JavaScript general de la portada, pruebas de navegación y enlaces |
+| Rodrigo Nicolás Molina | [`Rodrigo-Molina12506`](https://github.com/Rodrigo-Molina12506) | Bitácora, README, documentación de tecnologías, estructura, funciones JS y uso de IA |
+
+> ⚠️ Faltan los usuarios de GitHub de Cimar y David — actualizar apenas los compartan en el grupo.
+
+## Tecnologías
+
+- HTML5 semántico
+- CSS3 (variables CSS, Flexbox, Grid, media queries)
+- JavaScript (vanilla, sin frameworks)
+- Google Fonts (`Inter`, `Space Grotesk`)
+- Git y GitHub (repositorio con colaboradores, algunos vía GitHub Desktop)
+- Vercel (publicación continua)
+
+## Estructura de archivos
+
+```text
+/
+├── index.html          → Portada del equipo
+├── integrante1.html     → Perfil de Ángel Domínguez (completo)
+├── integrante2.html     → Perfil de Cimar Gómez (pendiente)
+├── integrante3.html     → Perfil de David Ruiz (pendiente)
+├── integrante4.html     → Perfil de Rodrigo Molina (completo)
+├── integrante5.html     → Perfil de Kevin Martínez (completo)
+├── bitacora.html        → Registro del proceso de desarrollo
+├── css/
+│   └── styles.css       → Hoja de estilos compartida por todo el sitio
+├── js/
+│   └── script.js        → Lógica compartida (tema, perfil al azar, interacción por perfil)
+└── img/                 → Fotos y avatares de cada integrante
+```
+
+## Guía de estilos
+
+- **Tipografías:** `Space Grotesk` (títulos) e `Inter` (texto), vía Google Fonts.
+- **Paleta (modo oscuro, por defecto):**
+  - Fondo: `#080a0f` · Superficie: `#10141d` / `#161c27`
+  - Texto: `#f3f5f8` · Texto secundario: `#a5adbb`
+  - Acento principal: `#7c5cff` (violeta) · Acento secundario: `#22d3ee` (cian)
+- **Paleta (modo claro):**
+  - Fondo: `#f1f3f7` · Superficie: `#ffffff` / `#e9edf4`
+  - Texto: `#141923` · Acento principal: `#6046d9` · Acento secundario: `#0891b2`
+- El botón **Tema** alterna entre modo oscuro y modo claro, y guarda la preferencia en `localStorage` (persiste al navegar entre páginas).
+- Diseño de tarjetas con sombras y bordes suaves (`.card-3d`) para dar sensación de profundidad.
+
+### Breakpoints obligatorios
+
+- **400 px** → adaptación para celulares pequeños.
+- **900 px** → adaptación para tablets y pantallas intermedias.
+- **1200 px** → distribución amplia del equipo (grid de 3 columnas en la portada).
+
+## Funciones JavaScript
+
+### Portada (`index.html`)
+
+**Botón "Elegir perfil al azar"** — selecciona aleatoriamente uno de los cinco perfiles y navega automáticamente hacia esa página.
+
+> 📸 *Falta agregar una captura de este botón funcionando.*
+
+### Cada perfil (interacción base compartida)
+
+**Botón "Mostrar una habilidad destacada"** — elige al azar una habilidad de una lista fija y la muestra en pantalla. Presente en los perfiles que todavía no cargaron una interacción propia.
+
+### Perfil de Ángel (`integrante1.html`)
+
+> ⏳ *Pendiente: agregar descripción de su interacción propia en JavaScript (si ya la implementó) o marcar que todavía usa la función compartida.*
+
+### Perfil de Kevin (`integrante5.html`)
+
+> ⏳ *Pendiente: agregar descripción de su interacción propia en JavaScript (si ya la implementó) o marcar que todavía usa la función compartida.*
+
+### Perfiles de Cimar y David
+
+> ⏳ *Pendiente por completo: estas páginas todavía tienen el contenido de ejemplo original. Falta que cada uno cargue sus datos reales y su propia interacción en JavaScript para poder documentarla acá, con su respectiva captura.*
+
+## Bitácora
+
+La página `bitacora.html` registra el proceso real del proyecto: la organización inicial del equipo, la identidad visual, la construcción del sitio por parte de Kevin, el trabajo de Ángel en su perfil (incluyendo una dificultad real que se resolvió, relacionada con el nombre de un archivo de imagen), las pruebas realizadas, el control de versiones, la publicación, y los aportes de documentación de Rodrigo y de infraestructura de Kevin.
+
+> ⏳ Faltan las entradas de Cimar y David sobre su propio proceso, decisiones y dificultades.
+
+## Uso de Inteligencia Artificial
+
+Se utilizó **ChatGPT (OpenAI)**, con un **plan pago**, como herramienta de apoyo para organizar contenidos, revisar código HTML, detectar errores y orientar el uso de GitHub Desktop. Los resultados propuestos fueron revisados, probados y adaptados por el equipo antes de incorporarlos al proyecto.
+
+Las fotografías utilizadas en los perfiles corresponden a imágenes personales de cada integrante y **no** fueron generadas con inteligencia artificial.
+
+> ⏳ **Pendiente:** que Cimar y David confirmen si usaron alguna herramienta de IA en su propia parte y, de ser así, completen su experiencia previa y qué revisaron con criterio propio.
+
+## Publicación
+
+URL de Vercel:
+
+[`https://tp1-grupo22-desarrollo-web.vercel.app`](https://tp1-grupo22-desarrollo-web.vercel.app/)
+
+## Estado del proyecto (al momento de esta actualización)
+
+- ✅ Portada, estructura de archivos y CSS compartido funcionando.
+- ✅ Perfil de Ángel Domínguez completo.
+- ✅ Perfil de Kevin Martínez completo.
+- ✅ Perfil de Rodrigo Molina completo, con interacción JS propia.
+- ⏳ Perfiles de Cimar y David con contenido de ejemplo — pendientes de completar.
+- ⏳ Capturas de las funciones de JavaScript pendientes.
+- ⏳ Uso de IA de Cimar y David pendiente de documentar (si corresponde).
+- ⏳ Entradas de bitácora de Cimar y David pendientes.
+
+## Evolución
+
+El proyecto queda preparado para ampliar la identidad visual, incorporar el contenido real de todos los integrantes, y reutilizar esta estructura en trabajos posteriores.
+

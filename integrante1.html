@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Angel Dominguez | NEXUS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Navegación principal">
+            <a class="brand" href="index.html">NEXUS<span>.</span></a>
+
+            <div class="nav-links">
+                <a href="index.html#equipo">Equipo</a>
+                <a href="bitacora.html">Bitácora</a>
+
+                <button
+                    class="theme-toggle"
+                    type="button"
+                    aria-label="Cambiar tema"
+                >
+                    <span class="theme-icon">☀</span>
+                    <span>Tema</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile-hero container">
+            <div class="profile-intro">
+                <a class="back-link" href="index.html#equipo">
+                    ← Volver al equipo
+                </a>
+
+                <p class="eyebrow">PERFIL INDIVIDUAL</p>
+
+                <img
+                    class="large-avatar avatar-1"
+                    src="img/angel.jpg"
+                    alt="Fotografía de Angel Dominguez"
+                    style="object-fit: cover;"
+                >
+
+                <p class="role">ESTUDIANTE DE DESARROLLO WEB</p>
+
+                <h1>Angel Dominguez</h1>
+
+                <p class="profile-description">
+                    Soy estudiante de Desarrollo de Sistemas Web y emprendedor.
+                    Me interesa adquirir nuevos conocimientos, resolver problemas
+                    y participar en proyectos tecnológicos mediante el trabajo
+                    colaborativo.
+                </p>
+            </div>
+
+            <div class="profile-data card-3d">
+                <div class="data-row">
+                    <span>Ciudad</span>
+                    <strong>Ciudad Autónoma de Buenos Aires</strong>
+                </div>
+
+                <div class="data-row">
+                    <span>Edad</span>
+                    <strong>46 años</strong>
+                </div>
+
+                <div class="data-row">
+                    <span>GitHub</span>
+                    <strong>ad29dominguez-design</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">HABILIDADES</p>
+                    <h2>Lo que aporto al equipo</h2>
+                </div>
+
+                <button
+                    class="btn btn-secondary skill-button"
+                    type="button"
+                >
+                    Mostrar una habilidad destacada
+                </button>
+            </div>
+
+            <div class="skills-grid">
+                <div class="mini-card card-3d">
+                    <span>01</span>
+                    <h3>Facilidad de aprendizaje</h3>
+                    <p>
+                        Capacidad para incorporar nuevos conocimientos
+                        y herramientas tecnológicas.
+                    </p>
+                </div>
+
+                <div class="mini-card card-3d">
+                    <span>02</span>
+                    <h3>Iniciativa emprendedora</h3>
+                    <p>
+                        Disposición para transformar ideas
+                        en proyectos concretos.
+                    </p>
+                </div>
+
+                <div class="mini-card card-3d">
+                    <span>03</span>
+                    <h3>Resolución de problemas</h3>
+                    <p>
+                        Búsqueda de soluciones ante errores
+                        o dificultades durante el desarrollo.
+                    </p>
+                </div>
+
+                <div class="mini-card card-3d">
+                    <span>04</span>
+                    <h3>Trabajo en equipo</h3>
+                    <p>
+                        Organización, comunicación y colaboración
+                        para alcanzar objetivos grupales.
+                    </p>
+                </div>
+            </div>
+
+            <p
+                id="skill-result"
+                class="dynamic-result"
+                aria-live="polite"
+            ></p>
+        </section>
+
+        <section class="section container favorites-section">
+            <div class="favorites-card card-3d">
+                <p class="eyebrow">PELÍCULAS FAVORITAS</p>
+
+                <div class="favorites-list">
+                    <div>
+                        <span>01</span>
+                        <strong>El Hombre Araña</strong>
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        <strong>Harry Potter</strong>
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        <strong>La momia</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="favorites-card card-3d">
+                <p class="eyebrow">DISCOS Y SENCILLOS FAVORITOS</p>
+
+                <div class="favorites-list">
+                    <div>
+                        <span>01</span>
+                        <strong>El Karma — Cazzu y Romeo Santos</strong>
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        <strong>Tu cariñito — Puerto Rican Power</strong>
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        <strong>
+                            Sin aire — La Sonora Dinamita de Lucho Argaín
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="profile-nav">
+                <a class="btn btn-secondary" href="index.html#equipo">
+                    ← Equipo
+                </a>
+
+                <a class="btn btn-primary" href="bitacora.html">
+                    Bitácora →
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <span>NEXUS · Angel Dominguez</span>
+            <a href="index.html">Inicio</a>
+            <a href="bitacora.html">Bitácora</a>
+        </div>
+    </footer>
+</body>
+</html>

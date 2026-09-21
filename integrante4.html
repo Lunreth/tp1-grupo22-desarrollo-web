@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo Molina | NEXUS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Navegación principal">
+            <a class="brand" href="index.html">NEXUS<span>.</span></a>
+            <div class="nav-links">
+                <a href="index.html#equipo">Equipo</a>
+                <a href="bitacora.html">Bitácora</a>
+                <button class="theme-toggle" type="button" aria-label="Cambiar tema">
+                    <span class="theme-icon">☀</span>
+                    <span>Tema</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile-hero container">
+            <div class="profile-intro">
+                <a class="back-link" href="index.html#equipo">← Volver al equipo</a>
+                <p class="eyebrow">PERFIL INDIVIDUAL</p>
+                <img src="img/rodrigo.jpg" alt="Foto de perfil de Rodrigo Nicolás Molina" class="large-avatar avatar-photo">
+                <p class="role">INTEGRANTE 04</p>
+                <h1>Rodrigo Nicolás Molina</h1>
+                <p class="profile-description">
+                    Estudiante de Desarrollo de Software. Trabajo en soporte técnico para una
+                    empresa de slots y ruletas, y estoy dando mis primeros pasos como
+                    desarrollador dentro del equipo.
+                </p>
+            </div>
+
+            <div class="profile-data card-3d">
+                <div class="data-row"><span>Ciudad</span><strong>Buenos Aires, Capital Federal</strong></div>
+                <div class="data-row"><span>Edad</span><strong>29 años</strong></div>
+                <div class="data-row"><span>GitHub</span><strong><a href="https://github.com/Rodrigo-Molina12506" target="_blank">Rodrigo-Molina12506</a></strong></div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">HABILIDADES</p>
+                    <h2>Lo que aporta al equipo</h2>
+                </div>
+                <button class="btn btn-secondary" id="skill-button-4" type="button">Mostrar una habilidad destacada</button>
+            </div>
+
+            <div class="skills-grid">
+                <div class="mini-card card-3d"><span>01</span><h3>HTML</h3><p>Estructura semántica de páginas web.</p></div>
+                <div class="mini-card card-3d"><span>02</span><h3>CSS</h3><p>Estilos, diseño responsive y animaciones.</p></div>
+                <div class="mini-card card-3d"><span>03</span><h3>Soporte Técnico</h3><p>Resolución de problemas y atención a usuarios.</p></div>
+                <div class="mini-card card-3d"><span>04</span><h3>JavaScript</h3><p>Primeros pasos con interactividad.</p></div>
+            </div>
+            <p id="skill-result-4" class="dynamic-result" aria-live="polite"></p>
+        </section>
+
+        <section class="section container favorites-section">
+            <div class="favorites-card card-3d">
+                <p class="eyebrow">PELÍCULAS FAVORITAS</p>
+                <div class="favorites-list">
+                    <div><span>01</span><strong>Shrek</strong></div>
+                    <div><span>02</span><strong>Se7en</strong></div>
+                    <div><span>03</span><strong>El Hombre Araña</strong></div>
+                </div>
+            </div>
+
+            <div class="favorites-card card-3d">
+                <p class="eyebrow">DISCOS FAVORITOS</p>
+                <div class="favorites-list">
+                    <div><span>01</span><strong>Oktubre (Patricio Rey y sus Redonditos de Ricota)</strong></div>
+                    <div><span>02</span><strong>Mi Único Amor (Néstor en Bloque)</strong></div>
+                    <div><span>03</span><strong>De la cabeza (Bersuit Vergarabat)</strong></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="profile-nav">
+                <a class="btn btn-secondary" href="index.html#equipo">← Equipo</a>
+                <a class="btn btn-primary" href="bitacora.html">Bitácora →</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <span>NEXUS · Rodrigo Molina</span>
+            <a href="index.html">Inicio</a>
+            <a href="bitacora.html">Bitácora</a>
+        </div>
+    </footer>
+
+    <script>
+        // ===== Interacción dinámica propia de este perfil =====
+        // Se usan IDs propios (skill-button-4 / skill-result-4) para no
+        // interferir con el script.js compartido por el resto del equipo.
+
+        const skillButton4 = document.querySelector("#skill-button-4");
+        const skillResult4 = document.querySelector("#skill-result-4");
+
+        const misHabilidades = [
+            "HTML — estructura semántica",
+            "CSS — diseño responsive",
+            "Soporte Técnico — resolución de problemas",
+            "JavaScript — en camino"
+        ];
+
+        // ---------- OPCIÓN 1: ROTACIÓN (cambia en orden con cada click) ----------
+        let indiceHabilidad = 0;
+
+        skillButton4.addEventListener("click", () => {
+            const seleccionada = misHabilidades[indiceHabilidad];
+            skillResult4.textContent = `Habilidad destacada: ${seleccionada}`;
+            indiceHabilidad = (indiceHabilidad + 1) % misHabilidades.length;
+        });
+
+        // ---------- OPCIÓN 2: FIJO (se revela una sola vez, no cambia) ----------
+        // Para usar esta opción: comentá el bloque de arriba (OPCIÓN 1) y
+        // descomentá este bloque de abajo.
+
+        /*
+        skillButton4.addEventListener("click", () => {
+            skillResult4.textContent = "Habilidad destacada: Soporte Técnico — resolución de problemas";
+        });
+        */
+    </script>
+</body>
+</html>
