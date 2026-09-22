@@ -13,10 +13,10 @@ El proyecto presenta una portada del equipo, cinco perfiles individuales y una b
 | Ángel Domínguez | [`ad29dominguez-design`](https://github.com/ad29dominguez-design) | Coordinación general, consigna, rúbrica, revisión final de `index.html` |
 | Kevin David Martínez | [`Lunreth`](https://github.com/Lunreth) | Creación y configuración del repositorio, colaboradores, estructura base (`index.html`), CSS y JavaScript |
 | Cimar Gómez Torres | *pendiente* | Diseño general, `css/styles.css`, Google Fonts, paleta y breakpoints |
-| David Carlos Ruiz Flores | *pendiente* | JavaScript general de la portada, pruebas de navegación y enlaces |
+| David Carlos Ruiz Flores | [`Davidruizf`](https://github.com/Davidruizf) | JavaScript general de la portada, pruebas de navegación y enlaces |
 | Rodrigo Nicolás Molina | [`Rodrigo-Molina12506`](https://github.com/Rodrigo-Molina12506) | Bitácora, README, documentación de tecnologías, estructura, funciones JS y uso de IA |
 
-> ⚠️ Faltan los usuarios de GitHub de Cimar y David — actualizar apenas los compartan en el grupo.
+> ⚠️ Faltan los usuarios de GitHub de Cimar — actualizar apenas los compartan en el grupo.
 
 ## Tecnologías
 
@@ -34,7 +34,7 @@ El proyecto presenta una portada del equipo, cinco perfiles individuales y una b
 ├── index.html          → Portada del equipo
 ├── integrante1.html     → Perfil de Ángel Domínguez (completo)
 ├── integrante2.html     → Perfil de Cimar Gómez (pendiente)
-├── integrante3.html     → Perfil de David Ruiz (pendiente)
+├── integrante3.html     → Perfil de David Ruiz (completo)
 ├── integrante4.html     → Perfil de Rodrigo Molina (completo)
 ├── integrante5.html     → Perfil de Kevin Martínez (completo)
 ├── bitacora.html        → Registro del proceso de desarrollo
@@ -79,9 +79,9 @@ El proyecto presenta una portada del equipo, cinco perfiles individuales y una b
 
 ## Bitácora
 
-La página `bitacora.html` registra el proceso real del proyecto: la organización inicial del equipo, la identidad visual, la construcción del sitio por parte de Kevin, el trabajo de Ángel en su perfil (incluyendo una dificultad real que se resolvió, relacionada con el nombre de un archivo de imagen), las pruebas realizadas, el control de versiones, la publicación, y los aportes de documentación de Rodrigo y de infraestructura de Kevin.
+La página `bitacora.html` registra el proceso real del proyecto: la organización inicial del equipo, la identidad visual, la construcción del sitio por parte de Kevin, el trabajo de Ángel en su perfil (incluyendo una dificultad real que se resolvió, relacionada con el nombre de un archivo de imagen), las pruebas realizadas, el control de versiones, la publicación, el trabajo de David en su propio perfil (incluyendo la actualización de la tarjeta de portada y una observación técnica sobre clases de CSS que quedarán obsoletas al completarse el último perfil) y los aportes de documentación de Rodrigo y de infraestructura de Kevin.
 
-> ⏳ Faltan las entradas de Cimar y David sobre su propio proceso, decisiones y dificultades.
+> ⏳ Falta las entrada de Cimar sobre su propio proceso, decisiones y dificultades.
 
 ## Uso de Inteligencia Artificial
 
@@ -103,10 +103,12 @@ URL de Vercel:
 - ✅ Perfil de Ángel Domínguez completo.
 - ✅ Perfil de Kevin Martínez completo.
 - ✅ Perfil de Rodrigo Molina completo, con interacción JS propia.
-- ⏳ Perfiles de Cimar y David con contenido de ejemplo — pendientes de completar.
+- ✅ Perfil de David Carlos Ruiz Flores completo, con foto y tarjeta de portada actualizada.
+- ⏳ Perfiles de Cimar con contenido de ejemplo — pendiente de completa.
 - ⏳ Capturas de las funciones de JavaScript pendientes.
-- ⏳ Uso de IA de Cimar y David pendiente de documentar (si corresponde).
-- ⏳ Entradas de bitácora de Cimar y David pendientes.
+- ⏳ Uso de IA de Cimar pendiente de documentar (si corresponde).
+- ⏳ Entradas de bitácora de Cimar pendientes.
+- ⏳ Limpieza de clases CSS de avatar, una vez que todos los perfiles tengan foto real.
 
 ## Evolución
 
