@@ -372,11 +372,7 @@ a {
     margin-bottom: 28px;
 }
 
-.avatar-2 { background: linear-gradient(135deg, #f97316, #ec4899); }
-.avatar-3 { background: linear-gradient(135deg, #10b981, #06b6d4); }
-.avatar-4 { background: linear-gradient(135deg, #eab308, #f97316); }
-.avatar-5 { background: linear-gradient(135deg, #ec4899, #8b5cf6); }
-
+/* Se eliminaron las clases de gradientes (.avatar-2, .avatar-3, .avatar-4, .avatar-5) que originalmente se encontraban en esta línea.*/ 
 .profile-card h3 {
     margin: 6px 0 8px;
     font-family: "Space Grotesk", sans-serif;
