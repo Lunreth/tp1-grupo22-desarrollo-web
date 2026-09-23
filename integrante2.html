@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Integrante 2 | NEXUS</title>
+    <title>Cimar Gomez Torrez | NEXUS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/script.js" defer></script>
+    <script src="script/script.js" defer></script>
 </head>
 <body>
     <header class="site-header">
@@ -30,19 +30,20 @@
             <div class="profile-intro">
                 <a class="back-link" href="index.html#equipo">← Volver al equipo</a>
                 <p class="eyebrow">PERFIL INDIVIDUAL</p>
-                <div class="large-avatar avatar-2">I2</div>
+
+                <img class="large-avatar avatar-photo" src="img/cimar.jpg" alt="Fotografía de Cimar Gomez Torrez">
+
                 <p class="role">INTEGRANTE 02</p>
-                <h1>Integrante 2</h1>
+                <h1>Cimar Gomez Torrez</h1>
                 <p class="profile-description">
-                    Espacio destinado a la presentación personal de Integrante 2.
-                    Reemplazar este texto por una breve presentación real del integrante.
+                    Soy estudiante de Desarrollo de Software y trabajo en el sector logístico. Busco trasladar mi experiencia en organización y disciplina al mundo IT para encaminar mi carrera profesional tecnológica.
                 </p>
             </div>
 
             <div class="profile-data card-3d">
-                <div class="data-row"><span>Ciudad</span><strong>Ciudad del integrante</strong></div>
-                <div class="data-row"><span>Edad</span><strong>Edad del integrante</strong></div>
-                <div class="data-row"><span>Habilidades</span><strong>4 habilidades</strong></div>
+                <div class="data-row"><span>Ciudad</span><strong>CABA, Argentina</strong></div>
+                <div class="data-row"><span>Edad</span><strong>29 años</strong></div>
+                <div class="data-row"><span>GitHub</span><strong><a href="https://github.com/CimarGomez" target="_blank" style="color: inherit;">CimarGomez</a></strong></div>
             </div>
         </section>
 
@@ -52,34 +53,34 @@
                     <p class="eyebrow">HABILIDADES</p>
                     <h2>Lo que aporta al equipo</h2>
                 </div>
-                <button class="btn btn-secondary skill-button" type="button">Mostrar una habilidad destacada</button>
+                <button class="btn btn-secondary" id="skill-button-2" type="button">Mostrar una habilidad destacada</button>
             </div>
 
             <div class="skills-grid">
-                <div class="mini-card card-3d"><span>01</span><h3>HTML</h3><p>Estructura semántica y accesible.</p></div>
-                <div class="mini-card card-3d"><span>02</span><h3>CSS</h3><p>Diseño visual y responsive.</p></div>
-                <div class="mini-card card-3d"><span>03</span><h3>JavaScript</h3><p>Interacciones dinámicas.</p></div>
-                <div class="mini-card card-3d"><span>04</span><h3>Trabajo en equipo</h3><p>Organización y colaboración.</p></div>
+                <div class="mini-card card-3d"><span>01</span><h3>HTML</h3><p>Estructura, contenido y semántica de páginas web.</p></div>
+                <div class="mini-card card-3d"><span>02</span><h3>CSS</h3><p>Diseño visual, estilos y control de adaptabilidad.</p></div>
+                <div class="mini-card card-3d"><span>03</span><h3>C#</h3><p>Fundamentos de programación, sintaxis y lógica inicial.</p></div>
+                <div class="mini-card card-3d"><span>04</span><h3>Disciplina y método</h3><p>Enfoque ordenado y constancia transferidos del sector logístico al desarrollo de software.</p></div>
             </div>
-            <p id="skill-result" class="dynamic-result" aria-live="polite"></p>
+            <p id="skill-result-2" class="dynamic-result" aria-live="polite"></p>
         </section>
 
         <section class="section container favorites-section">
             <div class="favorites-card card-3d">
                 <p class="eyebrow">PELÍCULAS FAVORITAS</p>
                 <div class="favorites-list">
-                    <div><span>01</span><strong>Película favorita 1</strong></div>
-                    <div><span>02</span><strong>Película favorita 2</strong></div>
-                    <div><span>03</span><strong>Película favorita 3</strong></div>
+                    <div><span>01</span><strong>Spiderman: No Way Home</strong></div>
+                    <div><span>02</span><strong>Your Name</strong></div>
+                    <div><span>03</span><strong>El Precio del Mañana</strong></div>
                 </div>
             </div>
 
             <div class="favorites-card card-3d">
                 <p class="eyebrow">DISCOS FAVORITOS</p>
                 <div class="favorites-list">
-                    <div><span>01</span><strong>Disco favorito 1</strong></div>
-                    <div><span>02</span><strong>Disco favorito 2</strong></div>
-                    <div><span>03</span><strong>Disco favorito 3</strong></div>
+                    <div><span>01</span><strong>Voragine (Airbag)</strong></div>
+                    <div><span>02</span><strong>Infame (Babasónicos)</strong></div>
+                    <div><span>03</span><strong>Vessels (Starset)</strong></div>
                 </div>
             </div>
         </section>
@@ -94,10 +95,30 @@
 
     <footer class="site-footer">
         <div class="container footer-content">
-            <span>NEXUS · Integrante 2</span>
+            <span>NEXUS · Cimar Gomez Torrez</span>
             <a href="index.html">Inicio</a>
             <a href="bitacora.html">Bitácora</a>
         </div>
     </footer>
+
+    <script>
+        const skillButton2 = document.querySelector("#skill-button-2");
+        const skillResult2 = document.querySelector("#skill-result-2");
+
+        const misHabilidades = [
+            "HTML — estructura, contenido y semántica",
+            "CSS — diseño visual, estilos y adaptabilidad",
+            "C# — fundamentos de programación y lógica",
+            "Disciplina y método — enfoque ordenado y constancia"
+        ];
+
+        let indiceHabilidad = 0;
+
+        skillButton2.addEventListener("click", () => {
+            const seleccionada = misHabilidades[indiceHabilidad];
+            skillResult2.textContent = `Habilidad destacada: ${seleccionada}`;
+            indiceHabilidad = (indiceHabilidad + 1) % misHabilidades.length;
+        });
+    </script>
 </body>
 </html>
