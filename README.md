@@ -12,7 +12,7 @@ El proyecto presenta una portada del equipo, cinco perfiles individuales y una b
 |---|---|---|
 | Ángel Domínguez | [`ad29dominguez-design`](https://github.com/ad29dominguez-design) | Coordinación general, consigna, rúbrica, revisión final de `index.html` |
 | Kevin David Martínez | [`Lunreth`](https://github.com/Lunreth) | Creación y configuración del repositorio, colaboradores, estructura base (`index.html`), CSS y JavaScript |
-| Cimar Gómez Torres | *pendiente* | Diseño general, `css/styles.css`, Google Fonts, paleta y breakpoints |
+| Cimar Gómez Torres | [`CimarGomez`](https://github.com/CimarGomez) | Diseño general, `css/styles.css`, Google Fonts, paleta y breakpoints |
 | David Carlos Ruiz Flores | [`Davidruizf`](https://github.com/Davidruizf) | JavaScript general de la portada, pruebas de navegación y enlaces |
 | Rodrigo Nicolás Molina | [`Rodrigo-Molina12506`](https://github.com/Rodrigo-Molina12506) | Bitácora, README, documentación de tecnologías, estructura, funciones JS y uso de IA |
 
@@ -33,7 +33,7 @@ El proyecto presenta una portada del equipo, cinco perfiles individuales y una b
 /
 ├── index.html          → Portada del equipo
 ├── integrante1.html     → Perfil de Ángel Domínguez (completo)
-├── integrante2.html     → Perfil de Cimar Gómez (pendiente)
+├── integrante2.html     → Perfil de Cimar Gómez (completo)
 ├── integrante3.html     → Perfil de David Ruiz (completo)
 ├── integrante4.html     → Perfil de Rodrigo Molina (completo)
 ├── integrante5.html     → Perfil de Kevin Martínez (completo)
@@ -104,7 +104,7 @@ URL de Vercel:
 - ✅ Perfil de Kevin Martínez completo.
 - ✅ Perfil de Rodrigo Molina completo, con interacción JS propia.
 - ✅ Perfil de David Carlos Ruiz Flores completo, con foto y tarjeta de portada actualizada.
-- ⏳ Perfiles de Cimar con contenido de ejemplo — pendiente de completa.
+- ✅ Perfiles de Cimar Gomez completo
 - ⏳ Capturas de las funciones de JavaScript pendientes.
 - ⏳ Uso de IA de Cimar pendiente de documentar (si corresponde).
 - ⏳ Entradas de bitácora de Cimar pendientes.
