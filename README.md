@@ -79,8 +79,6 @@ El proyecto presenta una portada del equipo, cinco perfiles individuales y una b
 
 La página `bitacora.html` registra el proceso real del proyecto: la organización inicial del equipo, la identidad visual, la construcción del sitio por parte de Kevin, el trabajo de Ángel en su perfil (incluyendo una dificultad real que se resolvió, relacionada con el nombre de un archivo de imagen), las pruebas realizadas, el control de versiones, la publicación, el trabajo de David en su propio perfil (incluyendo la actualización de la tarjeta de portada y una observación técnica sobre clases de CSS que quedarán obsoletas al completarse el último perfil) y los aportes de documentación de Rodrigo y de infraestructura de Kevin.
 
-> ⏳ Falta las entrada de Cimar sobre su propio proceso, decisiones y dificultades.
-
 ## Uso de Inteligencia Artificial
 
 Se utilizó **ChatGPT (OpenAI)**, con un **plan pago**, como herramienta de apoyo para organizar contenidos, revisar código HTML, detectar errores y orientar el uso de GitHub Desktop. Los resultados propuestos fueron revisados, probados y adaptados por el equipo antes de incorporarlos al proyecto.
