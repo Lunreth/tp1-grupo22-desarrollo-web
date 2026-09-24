@@ -16,8 +16,6 @@ El proyecto presenta una portada del equipo, cinco perfiles individuales y una b
 | David Carlos Ruiz Flores | [`Davidruizf`](https://github.com/Davidruizf) | JavaScript general de la portada, pruebas de navegación y enlaces |
 | Rodrigo Nicolás Molina | [`Rodrigo-Molina12506`](https://github.com/Rodrigo-Molina12506) | Bitácora, README, documentación de tecnologías, estructura, funciones JS y uso de IA |
 
-> ⚠️ Faltan los usuarios de GitHub de Cimar — actualizar apenas los compartan en el grupo.
-
 ## Tecnologías
 
 - HTML5 semántico
@@ -31,18 +29,18 @@ El proyecto presenta una portada del equipo, cinco perfiles individuales y una b
 
 ```text
 /
-├── index.html          → Portada del equipo
-├── integrante1.html     → Perfil de Ángel Domínguez (completo)
-├── integrante2.html     → Perfil de Cimar Gómez (completo)
-├── integrante3.html     → Perfil de David Ruiz (completo)
-├── integrante4.html     → Perfil de Rodrigo Molina (completo)
-├── integrante5.html     → Perfil de Kevin Martínez (completo)
-├── bitacora.html        → Registro del proceso de desarrollo
+├── index.html         → Portada del equipo
+├── integrante1.html   → Perfil de Ángel Domínguez (completo)
+├── integrante2.html   → Perfil de Cimar Gómez (completo)
+├── integrante3.html   → Perfil de David Ruiz (completo)
+├── integrante4.html   → Perfil de Rodrigo Molina (completo)
+├── integrante5.html   → Perfil de Kevin Martínez (completo)
+├── bitacora.html      → Registro del proceso de desarrollo
 ├── css/
-│   └── styles.css       → Hoja de estilos compartida por todo el sitio
+│   └── styles.css     → Hoja de estilos compartida por todo el sitio
 ├── js/
-│   └── script.js        → Lógica compartida (tema, perfil al azar, interacción por perfil)
-└── img/                 → Fotos y avatares de cada integrante
+│   └── script.js      → Lógica compartida (tema, perfil al azar, interacción por perfil)
+└── img/               → Fotos y avatares de cada integrante
 ```
 
 ## Guía de estilos
