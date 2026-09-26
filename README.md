@@ -68,24 +68,19 @@ El proyecto presenta una portada del equipo, cinco perfiles individuales y una b
 
 **Botón "Elegir perfil al azar"** — selecciona aleatoriamente uno de los cinco perfiles y navega automáticamente hacia esa página.
 
-
-
 ### Cada perfil (interacción base compartida)
 
 **Botón "Mostrar una habilidad destacada"** — elige al azar una habilidad de una lista fija y la muestra en pantalla. Presente en los perfiles que todavía no cargaron una interacción propia.
 
-
 ## Bitácora
 
-La página `bitacora.html` registra el proceso real del proyecto: la organización inicial del equipo, la identidad visual, la construcción del sitio por parte de Kevin, el trabajo de Ángel en su perfil (incluyendo una dificultad real que se resolvió, relacionada con el nombre de un archivo de imagen), las pruebas realizadas, el control de versiones, la publicación, el trabajo de David en su propio perfil (incluyendo la actualización de la tarjeta de portada y una observación técnica sobre clases de CSS que quedarán obsoletas al completarse el último perfil) y los aportes de documentación de Rodrigo y de infraestructura de Kevin.
+La página `bitacora.html` registra el proceso real del proyecto: la organización inicial del equipo, la identidad visual, la construcción del sitio por parte de Kevin, el trabajo de Ángel en su perfil (incluyendo una dificultad real que se resolvió, relacionada con el nombre de un archivo de imagen), las pruebas realizadas, el control de versiones, la publicación, el trabajo de David en su propio perfil (incluyendo la actualización de la tarjeta de portada y una observación técnica sobre clases de CSS que quedarán obsoletas al completarse el último perfil), el trabajo de Cimar en el suyo, y los aportes de documentación de Rodrigo y de infraestructura de Kevin.
 
 ## Uso de Inteligencia Artificial
 
 Se utilizó **ChatGPT (OpenAI)**, con un **plan pago**, como herramienta de apoyo para organizar contenidos, revisar código HTML, detectar errores y orientar el uso de GitHub Desktop. Los resultados propuestos fueron revisados, probados y adaptados por el equipo antes de incorporarlos al proyecto.
 
 Las fotografías utilizadas en los perfiles corresponden a imágenes personales de cada integrante y **no** fueron generadas con inteligencia artificial.
-
-
 
 ## Publicación
 
@@ -100,13 +95,12 @@ URL de Vercel:
 - ✅ Perfil de Kevin Martínez completo.
 - ✅ Perfil de Rodrigo Molina completo, con interacción JS propia.
 - ✅ Perfil de David Carlos Ruiz Flores completo, con foto y tarjeta de portada actualizada.
-- ✅ Perfiles de Cimar Gomez completo
-- ⏳ Capturas de las funciones de JavaScript pendientes.
-- ⏳ Uso de IA de Cimar pendiente de documentar (si corresponde).
-- ⏳ Entradas de bitácora de Cimar pendientes.
-- ⏳ Limpieza de clases CSS de avatar, una vez que todos los perfiles tengan foto real.
+- ✅ Perfil de Cimar Gómez completo.
+- ✅ Capturas de las funciones de JavaScript agregadas.
+- ✅ Uso de IA de Cimar documentado.
+- ✅ Entradas de bitácora de Cimar agregadas.
+- ✅ Limpieza de clases CSS de los avatares realizada.
 
 ## Evolución
 
-El proyecto queda preparado para ampliar la identidad visual, incorporar el contenido real de todos los integrantes, y reutilizar esta estructura en trabajos posteriores.
-
+El proyecto quedó completo con el contenido real de los cinco integrantes: perfiles, interacciones en JavaScript, documentación y bitácora. Como próximos pasos, el equipo podría seguir ampliando la identidad visual del sitio o sumar nuevas funcionalidades en trabajos posteriores.
